@@ -99,4 +99,4 @@ dump_model(bst, "dump.raw.txt")
 dump_model(bst, "dump.nice.txt", fmap="../data/featmap.txt", with_stats=true)
 
 # You can also get information about feature importances in the model
-dump(importance(bst, fmap="../data/featmap.txt"))
+display(importance(bst, fmap="../data/featmap.txt"))
